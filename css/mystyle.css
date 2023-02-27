@@ -1,0 +1,10 @@
+.image-react {
+    width: 100%;
+    max-width: 350px; /* para que reduzca la imagen con tamanio pantalla */
+}
+.image-col {
+    width:100%;
+    max-width:35px;
+    height: 100%;
+    max-height: 35px;
+}
