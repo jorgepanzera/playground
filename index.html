@@ -111,9 +111,9 @@
     <!-- end Section imagen -->
 
     <!--Seccion columnas -->
-    <section class="pt-5">
+    <section>
       <div class="container">
-        <div class="row"> <!--class row necesaria para dividir un grid en columnas-->
+        <div class="row pb-6"> <!--class row necesaria para dividir un grid en columnas-->
           <!-- como quiero 4 columnas en ancho maximo de pantalla (xl) y boostrap trabaja con 12 columnas por default => col-xl-3
           que representan 4 columnas de ancho 3 = 12 columnas, luego medium y movil col-md-6 y col-12-->
           <div class="col-xl-3 col-md-6 col-12 text-center">
@@ -144,6 +144,25 @@
               que seria el normal, uso el col-12 para 4 columnas
             </p>
           </div>
+        </div>
+      </div>
+      <div class="text-center pt-5">
+        <button type="button" class="btn btn-dark btn-primary btn-lg pl-8 pr-8">Create an org</button>
+      </div>
+    </section>
+    <!-- End section columnas-->
+
+    <!-- Seccion final-->
+    <section class="pt-5 pb-5">
+      <div class="container custom-img-bg pt-5 text-center">
+        <h5 class="display-1 font-weigth-bold pt-5 text-warning">npm enterprise</h5>
+        <div
+          class="col-12 col-md-9 col-xl-6 mx-auto pt-3 pb-4 text-warning font-weigth-light" > <!-- mx-auto para centrar cuando uso columnas, no sirve el text_center del div container con columnas -->
+          <h5>
+            We're GitHub., the company behind the npm Registry and npm CLI. We
+            offer those to the community for free, but our day job is building
+            and selling useful tools for developers like you.
+          </h5>
         </div>
       </div>
     </section>

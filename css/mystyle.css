@@ -8,3 +8,10 @@
     height: 100%;
     max-height: 35px;
 }
+
+.custom-img-bg {
+    background: url("../img/bg-bricks.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
